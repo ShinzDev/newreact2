@@ -1,0 +1,18 @@
+.text{
+    text-align: center;
+  
+    
+}
+
+.btn__section{
+    background: red;
+    display: flex
+}
+.btn_2{
+    background-color: rgb(2, 1, 1);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
