@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-      <div className="left">
+      <div className="LOGO">
           <h1><i class="fa-solid fa-bolt"></i>Fintrack</h1>
         </div>
         <div className="right">

@@ -5,8 +5,9 @@
 }
 
 .btn__section{
-    background: red;
-    display: flex
+    display: flex;
+    gap:2rem;
+    justify-content: center;
 }
 .btn_2{
     background-color: rgb(2, 1, 1);
@@ -14,5 +15,34 @@
     font-size: 18px;
     border-radius: 20px;
     padding: 10px;
+    border: none;
     
+}
+.cards{
+    display: flex;
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+img{
+    transform: rotate(45deg);
+    /* border: 1px solid black; */
+    width: 400px;
+    
+}
+
+
+
+@media (max-width:576px) {
+    .cards{
+        display: grid;
+        margin-left: 0;
+    }
+
+    .btn__section{
+        display: grid;
+        gap:2rem;
+        justify-content: center;
+    }
 }
